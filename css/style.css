@@ -13,7 +13,7 @@ ul {
 }
 
 body {
-  background: #faf6ed;
+  background: #ffe1ff;
   color: #222;
   -webkit-font-smoothing: antialiased;
   display: grid;
@@ -24,7 +24,7 @@ body {
   grid-column: 3 / 5;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #ff55aa;
 }
 
 .menu ul {
@@ -57,7 +57,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.titulo {
+.title {
   font-family: 'Playfair Display SC', georgia;
   font-size: 6rem;
   line-height: 1;
@@ -66,111 +66,111 @@ body {
   grid-column: 1 / 4;
 }
 
-.animais h2 {
+.singers h2 {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: .1em;
   margin-bottom: 1rem;
-  color: #E54;
+  color: #e80074;
 }
 
-.animais h2::before {
+.singers h2::before {
   content: '';
   display: inline-block;
   width: 40px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #ff55aa;
 }
 
-.animais p {
+.singers p {
   font-family: Helvetica, Arial;
   line-height: 1.2;
   margin-bottom: 1rem;
 }
 
-.animais-lista {
+.singers-list {
   height: 370px;
   overflow-y: scroll;
   grid-column: 2;
 }
 
-.animais-lista::-webkit-scrollbar {
+.singers-list::-webkit-scrollbar {
   width: 18px;
 }
 
-.animais-lista::-webkit-scrollbar-thumb {
-  background: #FB5;
-  border-left: 4px solid #faf6ed;
-  border-right: 4px solid #faf6ed;
+.singers-list::-webkit-scrollbar-thumb {
+  background: #ff55aa;
+  border-left: 4px solid #ffe1ff;
+  border-right: 4px solid #ffe1ff;
 }
 
-.animais-lista::-webkit-scrollbar-track {
-  background: #faf6ed;
+.singers-list::-webkit-scrollbar-track {
+  background: #ffe1ff;
 }
 
-.animais-descricao {
+.singers-description {
   grid-column: 3;
 }
 
-.animais-descricao section {
+.singers-description section {
   margin-bottom: 3rem;
 }
 
-.faq-lista {
+.faq-list {
   grid-column: 2 / 4
 }
 
-.faq-lista dt {
+.faq-list dt {
   font-family: 'IBM Plex Mono', monospace;
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: .5rem;
-  color: #E54;
+  color: #e80074;
 }
 
-.faq-lista dt::before {
+.faq-list dt::before {
   content: '';
   display: inline-block;
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #ff55aa;
 }
 
-.faq-lista dd {
+.faq-list dd {
   font-family: Helvetica, Arial;
   margin-bottom: .5rem;
   margin-left: 30px;
 }
 
-.mapa {
+.map {
   grid-column: 2;
 }
 
-.dados {
+.data {
   grid-column: 3;
 }
 
-.dados li {
+.data li {
   margin-bottom: 1rem;
   font-family: Helvetica, Arial;
 }
 
-.dados li::before {
+.data li::before {
   content: '';
   display: inline-block;
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #FB5;
+  background: #ff55aa;
 }
 
 .copy {
   grid-column: 3/5;
   margin-bottom: 2rem;
-  background: #FB5;
+  background: #ff55aa;
 }
 
 .copy p {
@@ -190,10 +190,10 @@ body {
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
   }
-  .animais-lista {
+  .singers-list {
     grid-column: 1;
   }
-  .faq-lista, .dados, .mapa {
+  .faq-list, .data, .map {
     grid-column: 1 / 3;
   }
   .grid-section h1 {
